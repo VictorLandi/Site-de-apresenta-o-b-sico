@@ -1,0 +1,56 @@
+body {
+    color: white; /* cor da letra*/
+    background-color: black; /* cor do fundo*/
+    font-family: Arial, Helvetica, sans-serif; /*estilo da fonte*/
+}
+
+ul { /* ul é onde está todo menu superior, e será será estilizado aqui nesse campo*/
+    display: flex;
+    justify-content: space-between; /*deixa em linha e separado */
+    list-style-type: none; /*tira os bolinhas do itens */
+    align-items: center; /*alinha os itenso ao centro*/
+    padding: 16px; /*distancia do cabeçalho pro topo*/
+}
+
+a { /* foi feito comando abaixo para tirar a cor azul do link e tirar o sublinhado.*/
+     color: white;
+     text-decoration: none;   /*tira a linha sublinhada do texto*/
+}
+
+header img { /*colocando o header na frente do img, apenas a imagem do header recebe essas personalização abaixi*/
+    width: 180px; /*determina a largura da área de conteúdo*/
+    height: 180px; /*determina a altura da área do conteúdo*/
+    border-radius: 50%; /*deixa a borda arredondada*/
+    border: 5px solid #5bbe42; /*borda verde em volta da foto*/
+}
+
+.center { /*quando é uma class, usa o ponto na frente*/
+    text-align: center; /*deixou a foto no centro*/
+}
+
+footer img {
+    width: 45px;
+    height: 45px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a { /*referencia ao A que é as imagens linkadas*/
+    margin: 20px; /*margem entre elas */
+    text-align: center; /*deoxpi a escrita abaixo do icones alinhada*/
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container { /* é a seleção de todo o conteudo do site num container, para alinhar o texto*/
+    padding: 0px 50px; /*sognfica que na parte superior e inferior, nao vai ter espaço, porém na direita e esquerda terá espaço de 50px*/
+}
+
+nav a:hover {
+    color: #5bbe42;
+}
